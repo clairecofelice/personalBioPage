@@ -25,9 +25,14 @@
 }
 
 .background-img {
+  display block;
+  width: 100%;
   margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+
+}
+
+.body{
+  width: 100%;
 }
 
 .jumbotron {
@@ -80,7 +85,7 @@
 }
 
 .navbar {
-  max-width: 970px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 0;
@@ -93,14 +98,9 @@
   margin-right: auto;
 }
 
-.footer {
-  max-width: 1020px;
-  height: 100px;
-  background-color: #a51417;
-  padding: 3%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40px;
+.site-footer {
+  position: absolute;
+  bottom: 0;
 }
 
 h1 {
@@ -112,6 +112,8 @@ h3 {
   text-transform: uppercase;
   font-size: 14px;
 }
+
+
 
 a {
   color: black;
