@@ -27,10 +27,11 @@
 .background-img {
   display block;
   width: 100%;
-  margin-top: 50px;
-
 }
 
+.navbar-transparent {
+  background-color: transparent;
+}
 .body{
   width: 100%;
 }
@@ -70,7 +71,7 @@
 }
 
 .image-gallery {
-  margin-top: 75px;
+  margin-top: 5%;
 }
 
 .container {
@@ -90,7 +91,9 @@
   margin-right: auto;
   border-radius: 0;
   margin-top: 0;
+  border-bottom: none;
 }
+
 
 .breadcrumb {
   max-width: 1020px;
@@ -113,14 +116,8 @@ h3 {
   font-size: 14px;
 }
 
-
-
-a {
-  color: black;
-}
-
-.link-text {
-  color: white;
+.navbar-link {
+  color: #777;
 }
 
 .modal {
