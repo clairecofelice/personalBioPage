@@ -101,6 +101,10 @@
   margin-right: auto;
 }
 
+.main-content {
+  margin-top: 2%;
+}
+
 .site-footer {
   position: absolute;
   bottom: 0;
