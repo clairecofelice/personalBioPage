@@ -103,11 +103,22 @@
 
 .main-content {
   margin-top: 2%;
+  margin-bottom: 12%;
 }
 
-.site-footer {
-  position: absolute;
+.footer {
+  position: fixed;
+  width: 100%;
+  margin-top: 10%;
+  background-color: black;
+  color: white;
   bottom: 0;
+  padding: 0.5%;
+  max-height: 140px;
+}
+a.footer {
+  text-decoration: none;
+  color: white;
 }
 
 h1 {
@@ -120,6 +131,13 @@ h3 {
   font-size: 14px;
 }
 
+h3.footer {
+  color: white;
+}
+
+ul.a {
+  list-style: none;
+}
 .navbar-link {
   color: #777;
 }
